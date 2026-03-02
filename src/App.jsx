@@ -2,13 +2,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 
-const T = {
-  bg:'#0A0C0F', surface:'#111318', card:'#161A21', border:'#1E2430',
-  borderHi:'#2A3347', gold:'#F0A500', goldDim:'#C07800',
-  goldGlow:'rgba(240,165,0,0.15)', green:'#22C97A', red:'#F04F4F',
-  blue:'#4F9EF0', purple:'#9B7EF0', text:'#E8ECF4', muted:'#6B7A99', faint:'#1E2430',
-};
-
 const GLOBAL_CSS = `
   @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap');
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
